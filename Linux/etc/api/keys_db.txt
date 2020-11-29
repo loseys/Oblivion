@@ -1,0 +1,3 @@
+intelligencex_key = 'KEY'
+haveibeenpwned_key = 'KEY'
+telegram_bot = 'KEY'

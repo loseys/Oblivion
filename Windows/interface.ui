@@ -1,0 +1,3221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>891</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>891</width>
+    <height>570</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>891</width>
+    <height>570</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Oblivion</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="content.qrc">
+    <normaloff>:/menu/media/oblivion_new.png</normaloff>:/menu/media/oblivion_new.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_menu">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>171</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QCommandLinkButton" name="menu_analisar">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Analisar</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_scan2.png</normaloff>:/menu/media/menu_scan2.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="menu_modulos">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Módulos</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_modules.png</normaloff>:/menu/media/menu_modules.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="menu_analises">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Minhas Análises</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_folder.png</normaloff>:/menu/media/menu_folder.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_analise_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(171, 171, 171);</string>
+     </property>
+     <property name="text">
+      <string>ANALISE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_outros">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>160</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(171, 171, 171);</string>
+     </property>
+     <property name="text">
+      <string>OUTROS</string>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="menu_agendar">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>210</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Agendar Análise</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_clock.png</normaloff>:/menu/media/menu_clock.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>168</x>
+       <y>31</y>
+       <width>2</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Nachlieli CLM</family>
+       <kerning>false</kerning>
+      </font>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="menu_decodificar">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Decodificar</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_decodificar.png</normaloff>:/menu/media/menu_decodificar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="menu_ajuda">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>268</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Ajuda</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_help.png</normaloff>:/menu/media/menu_help.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>19</height>
+      </size>
+     </property>
+    </widget>
+    <zorder>menu_analisar</zorder>
+    <zorder>menu_modulos</zorder>
+    <zorder>label_analise_2</zorder>
+    <zorder>label_outros</zorder>
+    <zorder>menu_agendar</zorder>
+    <zorder>line</zorder>
+    <zorder>menu_decodificar</zorder>
+    <zorder>menu_analises</zorder>
+    <zorder>menu_ajuda</zorder>
+   </widget>
+   <widget class="QFrame" name="frame_analisar">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_analise">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>13</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Análise</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabwidget_analise_config">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:None;</string>
+     </property>
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="elideMode">
+      <enum>Qt::ElideNone</enum>
+     </property>
+     <property name="usesScrollButtons">
+      <bool>true</bool>
+     </property>
+     <property name="documentMode">
+      <bool>false</bool>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <property name="movable">
+      <bool>true</bool>
+     </property>
+     <property name="tabBarAutoHide">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Configurações</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>90</y>
+         <width>651</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Notificação</string>
+       </property>
+       <widget class="QWidget" name="formLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>361</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>E-mail</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="db_email">
+           <item>
+            <property name="text">
+             <string>nenhum</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>exemplo@outlook.com</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>todos</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>10</y>
+         <width>651</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Varredura</string>
+       </property>
+       <widget class="QWidget" name="formLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>361</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_4">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <family>Segoe UI</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Delay da Análise (s)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QDoubleSpinBox" name="db_delay"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QCheckBox" name="db_looping">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Modo Looping</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>150</y>
+         <width>651</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Finalização</string>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>361</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QCheckBox" name="db_fechar">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Fechar ao Finalizar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="db_desligar">
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Desligar ao Finalizar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Módulos</string>
+      </attribute>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>641</width>
+         <height>266</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTreeWidget" name="config_modulos">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <column>
+           <property name="text">
+            <string>Módulos</string>
+           </property>
+          </column>
+          <item>
+           <property name="text">
+            <string>Data Leak</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Common Websites</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Lista Personalizada</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Google Dorks</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>WordLists</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Onion</string>
+            </property>
+            <property name="checkState">
+             <enum>Unchecked</enum>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>Natural Language</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vulnerabilities Scan</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>Formatos</string>
+      </attribute>
+      <widget class="QTreeWidget" name="config_formatos">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>656</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="headerHidden">
+        <bool>false</bool>
+       </property>
+       <attribute name="headerCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Resultados</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>Gerar resultados</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cópia local</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Dado bruto (.txt)</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>.txt</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.docx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.pdf</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xlsx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.json</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.html</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xsl</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.db</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>E-mail</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Dado bruto (.txt)</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>.txt</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.docx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.pdf</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xlsx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.json</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.html</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xsl</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.db</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+        </item>
+       </item>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="analise_salvar">
+     <property name="geometry">
+      <rect>
+       <x>527</x>
+       <y>18</y>
+       <width>71</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: None;
+background-color: None;</string>
+     </property>
+     <property name="text">
+      <string>Salvar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="analise_nova_analise">
+     <property name="geometry">
+      <rect>
+       <x>608</x>
+       <y>18</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: None;
+background-color: None;</string>
+     </property>
+     <property name="text">
+      <string>Nova Análise</string>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/analise_icone_analisar.png</normaloff>:/menu/media/analise_icone_analisar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>15</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_faixa" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(38, 55, 70);</string>
+    </property>
+    <widget class="QCommandLinkButton" name="menu_configuracoes">
+     <property name="geometry">
+      <rect>
+       <x>812</x>
+       <y>-2</y>
+       <width>32</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:None;
+background-color:None;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/menu_settings_white.png</normaloff>:/menu/media/menu_settings_white.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>17</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton">
+     <property name="geometry">
+      <rect>
+       <x>846</x>
+       <y>-3</y>
+       <width>32</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:None;
+background-color:None;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="content.qrc">
+       <normaloff>:/menu/media/analise_notification.png</normaloff>:/menu/media/analise_notification.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>24</width>
+       <height>18</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_analises">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_analises">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>13</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Minhas Análises</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_7">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="movable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="tab_13">
+      <attribute name="title">
+       <string>Resultados</string>
+      </attribute>
+      <widget class="QListWidget" name="listWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>3</y>
+         <width>661</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="movement">
+        <enum>QListView::Static</enum>
+       </property>
+       <property name="viewMode">
+        <enum>QListView::ListMode</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_14">
+      <attribute name="title">
+       <string>Logs</string>
+      </attribute>
+      <widget class="QListWidget" name="listWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>3</y>
+         <width>661</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="movement">
+        <enum>QListView::Static</enum>
+       </property>
+       <property name="viewMode">
+        <enum>QListView::ListMode</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_modulos">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_modulos">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>13</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Módulos</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_8">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget_modulos">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="movable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="tab_15">
+      <attribute name="title">
+       <string>Todos</string>
+      </attribute>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>20</y>
+         <width>121</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <widget class="QToolButton" name="toolButton_4">
+        <property name="geometry">
+         <rect>
+          <x>22</x>
+          <y>0</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: None;
+border-style: outset;
+border-radius:1px;
+padding: 6px;
+min-width:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="content.qrc">
+          <normaloff>:/modulos/media/modulo_leak.png</normaloff>:/modulos/media/modulo_leak.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>68</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>61</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Data Leak</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>2</x>
+          <y>81</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(98, 98, 98);</string>
+        </property>
+        <property name="text">
+         <string>   Verifique por novos 
+ vazamentos de dados</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>121</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <widget class="QToolButton" name="toolButton_8">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>0</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: None;
+border-style: outset;
+border-radius:1px;
+padding: 6px;
+min-width:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="content.qrc">
+          <normaloff>:/modulos/media/modulo_natural_language.png</normaloff>:/modulos/media/modulo_natural_language.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>68</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>61</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Natural Language</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>81</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(98, 98, 98);</string>
+        </property>
+        <property name="text">
+         <string>Mineração de emoção
+   através de strings</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>20</y>
+         <width>91</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <widget class="QToolButton" name="toolButton_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: None;
+border-style: outset;
+border-radius:1px;
+padding: 6px;
+min-width:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="content.qrc">
+          <normaloff>:/modulos/media/modulo_idioma.png</normaloff>:/modulos/media/modulo_idioma.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>68</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>61</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Language</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>81</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(98, 98, 98);</string>
+        </property>
+        <property name="text">
+         <string>         Escolha idiomas 
+              de busca</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_10" native="true">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>20</y>
+         <width>121</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <widget class="QToolButton" name="toolButton_13">
+        <property name="geometry">
+         <rect>
+          <x>29</x>
+          <y>0</y>
+          <width>71</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: None;
+border-style: outset;
+border-radius:1px;
+padding: 6px;
+min-width:10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="content.qrc">
+          <normaloff>:/modulos/media/modulo_vulnerabilidades.png</normaloff>:/modulos/media/modulo_vulnerabilidades.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>68</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>27</x>
+          <y>61</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Vulnerabilities</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>81</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(98, 98, 98);</string>
+        </property>
+        <property name="text">
+         <string>Consulte por novas
+     CVEs ou NOVs</string>
+        </property>
+       </widget>
+      </widget>
+      <zorder>widget_5</zorder>
+      <zorder>widget_2</zorder>
+      <zorder>widget_8</zorder>
+      <zorder>widget_10</zorder>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_agendar">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_analises_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>3</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Agendar Análise</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_10">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="movable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="tab_18">
+      <attribute name="title">
+       <string>Agendar</string>
+      </attribute>
+      <widget class="QCalendarWidget" name="calendarWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>341</width>
+         <height>183</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <property name="gridVisible">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="formLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>341</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="formLayout">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+        </property>
+        <property name="rowWrapPolicy">
+         <enum>QFormLayout::DontWrapRows</enum>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Data:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QDateEdit" name="dateEdit"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Horário: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTimeEdit" name="timeEdit"/>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="plainText">
+           <string>Nota adicional</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QTreeWidget" name="config_agenda">
+       <property name="geometry">
+        <rect>
+         <x>385</x>
+         <y>50</y>
+         <width>291</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="headerHidden">
+        <bool>false</bool>
+       </property>
+       <attribute name="headerCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Resultados</string>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>Módulos</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Vulnerabilities Scan</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Natural Language</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Data Leak</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Sites personalizados</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Common Websites</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Google Dorks</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WordLists</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Onion</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gerar resultados</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cópia local</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Dado bruto (.txt)</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>.txt</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.docx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.pdf</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xlsx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.json</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.html</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xsl</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.db</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>E-mail</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Texto pleno</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>Dado bruto (.txt)</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>.txt</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.docx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.pdf</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xlsx</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.json</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.html</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.xsl</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+         <item>
+          <property name="text">
+           <string>.db</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>Ocultar senhas</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Criptografar</string>
+           </property>
+           <property name="checkState">
+            <enum>Unchecked</enum>
+           </property>
+          </item>
+         </item>
+        </item>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>592</x>
+         <y>7</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: None;</string>
+       </property>
+       <property name="text">
+        <string>Criar</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_19">
+      <attribute name="title">
+       <string>Histórico</string>
+      </attribute>
+      <widget class="QListWidget" name="listWidget">
+       <property name="geometry">
+        <rect>
+         <x>4</x>
+         <y>34</y>
+         <width>671</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="movement">
+        <enum>QListView::Static</enum>
+       </property>
+       <property name="viewMode">
+        <enum>QListView::ListMode</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>Exemplo 1</string>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>592</x>
+         <y>7</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: None;</string>
+       </property>
+       <property name="text">
+        <string>Remover</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_decodificar">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_analises_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>13</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Decodificar</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_9">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Local do arquivo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Chave (opcional)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_local_arquivo"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_chave"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QToolButton" name="toolButton_selecionar_arq">
+         <property name="styleSheet">
+          <string notr="true">background-color: None;</string>
+         </property>
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="push_decodificar">
+         <property name="styleSheet">
+          <string notr="true">background-color: None;</string>
+         </property>
+         <property name="text">
+          <string>Decodificar</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_ajuda">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_analises_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>3</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Source Sans Pro ExtraLight</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>Ajuda</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_11">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>49</y>
+       <width>802</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>68</y>
+       <width>681</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>Questões sobre login e registro
+Devo me registrar para utilizar este fórum?
+Para visualizar as perguntas e respostas, não é necessário o registro. Porém, somente com conta registrada e e-mail validade será possível realizar perguntas, respostas, comentários e votações. O registro lhe dá acesso a funções adicionais e possivelmente permissões que não estão disponíveis a visitantes. Alguns exemplos são o uso e definição de imagens avatares, participação em grupos de usuários, recebimento de medalhas, participações em promoções do fórum etc. São necessários apenas alguns segundos para se fazer o registro, portanto é recomendável que o faça.
+
+Esqueci a minha senha, o que devo fazer?
+Tente efetuar seu cadastro pelo site da Globo.com. Clique em Esqueci a Senha, abaixo do botão Acessar. A seguir, forneça o e-mail cadastrado e escreva a imagem do CAPTCHA, conforme a vir. Clique em Prosseguir e espere as instruções enviadas pelo email.
+
+Preferências e configuração de usuários
+Como posso editar o meu perfil?
+Depois de efetuado o registro, toda a sua configuração é guardada no banco de dados. Para alterar qualquer dado, clique em Nome do Usuário (localizado no topo direito de qualquer página). A seguir, procure o menu Ferramentas do Usuário e clique em Editar Perfil.
+
+Como posso usar uma imagem de avatar?
+Sua imagem de usuário ou avatar é a mesma utilizada no Gravatar, um sistema de avatar reconhecido mundialmente disponibilizado por associação a vários endereços.
+
+Se você ainda não possui uma conta no Gravatar, crie uma clicando neste link. Para que a sua imagem possa aparecer no fórum, o endereço utilizado pelo Gravatar e o endereço de cadastro do fórum devem ser os mesmos.
+
+Caso você já possua uma conta no Gravatar, basta clicar no seu Nome de Usuário, na barra de ferramentas superior, Ferramentas do Usuário e Editar Perfil. Clique no botão Gravatar, abaixo da imagem que aparece no seu perfil.
+
+Quando entrar na página do Gravatar, clique em Obtenha o seu Gravatar hoje se já estiver logado, ou realize o login. Você verá a página Gerir Gravatars.
+
+Certifique-se de que o e-mail em destaque na tela seja o mesmo utilizado para o cadastro do fórum. Exemplo: Digamos que o e-mail cadastrado no fórum tenha sido &quot;xxxx@gmail.com&quot; mas que sua conta do Gravatar esteja cadastrada com o e-mail &quot;yyyy@gmail.com&quot;. Você deverá, então, clicar em add a new e-mail, digitar o mesmo e-mail do fórum (xxxx@gmail.com) e clicar em adicionar. Você receberá um e-mail de confirmação com um código. Clique no link enviado pelo e-mail para habilitar o novo endereço no Gravatar.
+
+Quando ambos os emails de cadastro do fórum e do Gravatar estiverem iguais, basta escolher uma das imagens que estiver no final da tela ou clicar em add a new image para enviar uma do computador. Clique na imagem que será utilizada e pronto. Cerca de 5 ou 10 minutos depois, já será possível ver o seu Gravatar no fórum do TechTudo.
+
+Sistema de Reputação
+Como funciona a minha Reputação?
+Sua reputação reflete diretamente o nível de confiança que a comunidade do Fórum TechTudo tem em você. De uma forma geral, o usuário normal não pode alterar diretamente a sua própria Reputação. Sua Reputação alta ou baixa indica o número de pontos/votos que você obteve como usuário. De uma forma geral o usuário normal não pode alterar diretamente a sua própria Reputação. Não abuse dos fóruns colocando mensagens desnecessárias apenas para aumentar a reputação, pois o moderador ou administrador poderão tomar atitudes, caso haja abuso, interferindo assim na imagem que você quer conquistar no fórum.
+
+Quantos votos tenho por dia?
+Você tem apenas 25 votos por dia para usar com as respostas do fórum. Use-os com sabedoria.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_bemvindo">
+    <property name="geometry">
+     <rect>
+      <x>169</x>
+      <y>31</y>
+      <width>731</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>18</y>
+       <width>681</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="label_analises_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>331</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Sans Pro ExtraLight</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(51, 51, 51);</string>
+      </property>
+      <property name="text">
+       <string>Bem-vindo ao Oblivion!</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_analises_7">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>460</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Source Sans Pro</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <stylestrategy>PreferDefault</stylestrategy>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(51, 51, 51);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:400;&quot;&gt;Oblivion 1.0.0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>661</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(43, 43, 43);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="plainText">
+       <string>Bem-vindo(a) o seu novo sistema de Scrap!
+
+Esta tela de boas-vindas lhe guiará através dos seus primeiros passos, explicar o funcionamento dos menus e informar onde conseguir mais informações sobre o Oblivion.
+
+      [ Analisar] configurar análise, aplicar módulos e realizar a análise;
+
+      [Minhas análises] para ver histórico de análises feitas e seus respectivos logs;
+
+      [Módulos] aplicar configuração dos módulos;
+
+      [Agendar Análise] caso queira que o Oblivion faça uma análise automática em um determinado dia e horário;
+
+      [Decodificar] decodificar arquivos de análises que foram criptografados pelo Oblivion
+
+      [Ajuda] aqui você poderá encontrar mais informações sobre o Oblivion.
+
+Em nome do desenvolvedor do projeto, gostaria de agradecer-lhe por ter escolhido o Oblivion. Espero que seja tão prazeroso para você utilizá-lo, quanto foi para mim desenvolver-lo.
+
+Aproveite o programa e não hesite de enviar seus comentários para gente.
+
+Email para suporte: iphitus@outlook.com</string>
+      </property>
+     </widget>
+     <widget class="QCommandLinkButton" name="commandLinkButton_2">
+      <property name="geometry">
+       <rect>
+        <x>565</x>
+        <y>381</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: None;
+border-style: outset;
+border-radius:1px;
+padding: 6px;
+min-width:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="content.qrc">
+        <normaloff>:/menu/media/oblivion_new.png</normaloff>:/menu/media/oblivion_new.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>64</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <zorder>widget_faixa</zorder>
+   <zorder>frame_modulos</zorder>
+   <zorder>frame_menu</zorder>
+   <zorder>frame_decodificar</zorder>
+   <zorder>frame_analisar</zorder>
+   <zorder>frame_analises</zorder>
+   <zorder>frame_agendar</zorder>
+   <zorder>frame_ajuda</zorder>
+   <zorder>frame_bemvindo</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="content.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>menu_analisar</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_analisar</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menu_analises</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_analises</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menu_modulos</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_modulos</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menu_agendar</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_agendar</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menu_decodificar</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_decodificar</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>menu_ajuda</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>frame_ajuda</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>534</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

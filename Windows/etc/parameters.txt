@@ -1,0 +1,4 @@
+email_notification:no
+email_body:no
+telegram_notification:no
+telegram_body:no

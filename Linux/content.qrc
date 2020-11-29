@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="menu">
+    <file>../../Desktop/qqq.png</file>
+    <file>media/oblivion.png</file>
+    <file>media/mini.png</file>
+    <file>media/improve_f1.png</file>
+    <file>media/improve.png</file>
+    <file>media/oblivion_icone_suavizado.png</file>
+    <file>media/menu_help.png</file>
+    <file>media/analise_notification.png</file>
+    <file>media/analise_icone_analisar.png</file>
+    <file>media/menu_decodificar.png</file>
+    <file>media/menu_user.png</file>
+    <file>media/menu_folder.png</file>
+    <file>media/menu_clock.png</file>
+    <file>media/menu_modules.png</file>
+    <file>media/menu_scan2.png</file>
+    <file>media/oblivion_logo.png</file>
+    <file>media/menu_settings_white.png</file>
+    <file>media/menu_clock.png</file>
+  </qresource>
+  <qresource prefix="modulos">
+    <file>media/modulo_proxy.png</file>
+    <file>media/modulo_ip.png</file>
+    <file>media/modulo_phishing.png</file>
+    <file>media/modulo_idioma.png</file>
+    <file>media/modulo_vulnerabilidades.png</file>
+    <file>media/modulo_chatbox.png</file>
+    <file>media/modulo_leak.png</file>
+    <file>media/modulo_stalker.png</file>
+    <file>media/modulo_natural_language.png</file>
+  </qresource>
+</RCC>
