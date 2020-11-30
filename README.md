@@ -41,7 +41,7 @@
 * 🔁 Possible to execute loop scans
 ---
 
-###  APIs
+###  🔵 APIs
 
 | Service | Functions | Status |
 |-|-|-|
