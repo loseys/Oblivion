@@ -9,8 +9,8 @@
 
 **Oblivion** is a tool focused in real time monitoring of new data leaks, notifying if the credentials of the user has been leak out. It's possible too verify if any credential of user has been leak out before. The Oblivion have two modes: 
 
-- Oblivion Client: is a graphical mode.
-- Oblivion Server: is a server mode with API functionalities.
+- Oblivion Client: graphical mode.
+- Oblivion Server: mode with API functionalities.
 
 **NOTE**: The Oblivion Client and the Oblivion Server are independents.
 
