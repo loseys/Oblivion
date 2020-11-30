@@ -9,6 +9,7 @@ import getpass
 from pathlib import Path
 
 import coloredlogs
+import urllib3
 import logging
 import verboselogs
 from etc.api.googledrv.gdrive_folder import *
@@ -17,7 +18,7 @@ from etc.api.googledrv.gdrive_folder import *
 # Global variables/Variáveis globais.
 path_central_scylla = str(pathlib.Path(__file__).parent.absolute())
 path_scylla_f = path_central_scylla.replace('\\etc\\api', '')
-
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 definir = os.environ
 
 for valor, item in definir.items():
@@ -90,7 +91,7 @@ def scylla_dado_bruto(nome, gdr=None):
         }
 
         url = 'https://scylla.sh/search?q=domain:Collection1-btc-combo&size=5000&start=5000'
-        scy_dadob = requests.get(url, headers=header)
+        scy_dadob = requests.get(url, headers=header, verify=False)
         scy_js = scy_dadob.json()
         contador = 0
         transportar = []
@@ -183,9 +184,9 @@ def chamar_limpar_scylla(email=None, senha=None, dadobruto=False, gdr=None):
     if email != None and senha != None:
         url_email = url_email.replace('input', email)
         url_senha = url_senha.replace('input', senha)
-        r_email = requests.get(url_email, headers=header)
+        r_email = requests.get(url_email, headers=header, verify=False)
         time.sleep(1)
-        r_senha = requests.get(url_senha, headers=header)
+        r_senha = requests.get(url_senha, headers=header, verify=False)
         time.sleep(1)
         data_email = r_email.json()
         data_senha = r_senha.json()
@@ -198,7 +199,7 @@ def chamar_limpar_scylla(email=None, senha=None, dadobruto=False, gdr=None):
         try:
             url_email = url_email.replace('input', email)
             time.sleep(1.8)
-            r_email = requests.get(url_email, headers=header)
+            r_email = requests.get(url_email, headers=header, verify=False)
             data_email = r_email.json()
             #limpar_scylla(data_email)
 
@@ -213,7 +214,7 @@ def chamar_limpar_scylla(email=None, senha=None, dadobruto=False, gdr=None):
         try:
             url_senha = url_senha.replace('input', senha)
             time.sleep(1.8)
-            r_senha = requests.get(url_senha, headers=header)
+            r_senha = requests.get(url_senha, headers=header, verify=False)
             time.sleep(1)
             data_senha = r_senha.json()
             lista_scylimp = (limpar_scylla(data_senha, dadobruto_pegar=dadobruto))
