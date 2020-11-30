@@ -12,7 +12,7 @@
 - Oblivion Client: is a graphical mode.
 - Oblivion Server: is a server mode with API functionalities.
 
-**NOTE**: The two modes are independents.
+**NOTE**: The Oblivion Client and the Oblivion Server are independents.
 
 
 <h1 align="center">
