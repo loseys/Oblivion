@@ -32,7 +32,7 @@
 * 👀 Checks the last pastes in Pastebin
 * 📄 Output to txt, docx, pdf, xlsx, json, html, xml, db
 * 🔒 Output to encrypted files
-* 📦 Can send result files to multiples Buckets S3
+* 📦 Sends result files to multiples Buckets S3
 * 📁 Upload the result files to Google Drive
 * 📡 Cab send result files by SSH (work with EC2)
 * 📢 Notify by Telegram and e-mail
@@ -55,3 +55,12 @@
 ###  🔧 Usage and configuration
 
 For configuration or usage of Oblivion please read the documentation. All the steps were careful explained with images and examples.
+
+###  💙 Thanks and credits
+
+- Peter Kleissner (IntelX)
+- Alejandro Caceres (Scylla)
+- Gustavo Melgaço
+- Alberico de Castro
+- Eliabe Kaique
+- <p><a href="https://github.com/khast3x/h8mail">khast3x</a></p>
