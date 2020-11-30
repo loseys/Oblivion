@@ -23,7 +23,7 @@
 </h1>
 
 
-## :cyclone: Oblivion Features
+### :cyclone: Oblivion Features
 
 * 💪 CVEs scan
 * ☑️ Works with powerful APIs
@@ -41,7 +41,7 @@
 * 🔁 Possible to execute loop scans
 ---
 
-####  APIs
+###  APIs
 
 | Service | Functions | Status |
 |-|-|-|
@@ -50,10 +50,8 @@
 | [IntelX.io](https://intelx.io/signup)| Cleartext passwords, hashs and salts, usernames, IPs, domain, Bitcoin Wallets, IBAN | paid |
 | [Circl.lu](https://cve.circl.lu/api/)| Checks for new CVEs| free |
 
-
-
-
-
 -----
 
-##  :tangerine: Usage
+###  🔧 Usage and configuration
+
+For configuration or usage of Oblivion please read the documentation. All the steps were careful explained with images and examples.
