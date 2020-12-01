@@ -63,6 +63,8 @@ For configuration or usage of Oblivion please read the documentation. All the st
 - Alejandro Caceres (Scylla)
 - <p><a href="https://github.com/khast3x/h8mail">khast3x</a></p>
 
+- <p><a href="https://github.com/danielmiessler">Daniel Miessler</a></p>
+
 - Gustavo Melgaço
 - <p><a href="https://github.com/decastroalberico">Alberico de Castro</a></p>
 - Eliabe Kaique
