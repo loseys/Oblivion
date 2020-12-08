@@ -58,8 +58,7 @@ For configuration or usage of Oblivion please read the documentation. All the st
 
 ###  💙 Thanks and credits
 
-- Peter Kleissner (IntelX)
-
+- Peter Kleissner and the Intelligence X team
 - Alejandro Caceres (Scylla)
 - <p><a href="https://github.com/khast3x/h8mail">khast3x</a></p>
 
