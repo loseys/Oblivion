@@ -56,6 +56,16 @@
 
 For configuration or usage of Oblivion please read the documentation. All the steps were careful explained with images and examples.
 
+
+### ❗❗❗ IMPORTANT
+
+1 - If you want only to use the free Oblivion (without paid keys) make sure that the free APIs are working.
+Some times the free API of the Scylla.sh can be in manutence, and the Oblivion will return an error when you try to call the Scylla.sh API.
+
+2 - Make sure that you are using the indicated OS and Python version. Some OS can be not compatible or return some types of error when you 
+try to use Oblivion, for more information about compatibilities please read the Oblivion documentation.
+
+
 ###  💙 Thanks and credits
 
 - Peter Kleissner and the Intelligence X team
