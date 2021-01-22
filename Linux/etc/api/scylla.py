@@ -93,7 +93,7 @@ def scylla_dado_bruto(nome, gdr=None):
             'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
         }
 
-        url = 'https://scylla.sh/search?q=domain:Collection1-btc-combo&size=5000&start=5000'
+        url = 'https://scylla.so/search?q=domain:Collection1-btc-combo&size=5000&start=5000'
         scy_dadob = requests.get(url, headers=header, verify=False)
         scy_js = scy_dadob.json()
         contador = 0
@@ -176,8 +176,8 @@ def chamar_limpar_scylla(email=None, senha=None, dadobruto=False, gdr=None):
     """
     cls_scylla_final = []
     gdrs = gdr
-    url_email = "https://scylla.sh/search?q=email%3Ainput"
-    url_senha = "https://scylla.sh/search?q=password%3Ainput"
+    url_email = "https://scylla.so/search?q=email%3Ainput"
+    url_senha = "https://scylla.so/search?q=password%3Ainput"
 
     header = {
         'Accept': 'application/json',
